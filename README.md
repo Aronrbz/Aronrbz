@@ -7,7 +7,51 @@
 
 <h4>MY GitHub Stats</h4>
 
-![Tus GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aronrbz&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aronrbz&layout=compact&theme=radical)
+
+<h4>Lenguajes y Frameworks</h4>
+
+<div style="display: flex; gap: 15px;">
+
+  <a href="https://www.java.com" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" width="48" height="48" style="border-radius: 10%;"/>
+  </a>
+
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/python--v1.png" width="48" height="48" style="border-radius: 10%;"/>
+  </a>
+
+  <a href="https://html.com" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" width="48" height="48" style="border-radius: 10%;"/>
+  </a>
+
+  <a href="https://www.w3schools.com/css/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/css3.png" width="48" height="48" style="border-radius: 10%;"/>
+  </a>
+
+  <a href="https://www.javascript.com" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" width="48" height="48" style="border-radius: 10%;"/>
+  </a>
+
+  <a href="https://angular.io" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/angularjs.png" width="48" height="48" style="border-radius: 10%;"/>
+  </a>
+  
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/git.png" width="48" height="48" style="border-radius: 10%;"/>
+ </a>
+
+ <a href="https://github.com/" target="_blank">
+    <img src="https://img.icons8.com/ios-glyphs/48/000000/github.png" width="48" height="48" style="border-radius: 10%;"/>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Database" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/000000/database.png" width="48" height="48" style="border-radius: 10%;"/>
+</a>
+
+
+</div>
+
 
 
 <details>
