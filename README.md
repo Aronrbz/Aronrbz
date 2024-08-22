@@ -1,14 +1,14 @@
 ## Hi, I'm Aron 👋👨‍💻
 
-<h1>Nice</h1>
-<h5>Nice</h5>
-
  if you want to contact me 🔍:
 
 - [LinkedIn](https://cl.linkedin.com/in/aaronrbz) 
 - <a href="mailto:ar.bustos@duocuc.cl">Email</a> 📧
 
-[![My Github Stats](https//github-readme-stats.vercel.app/api?username=Aronrbz)](https://github.com/anuraghazra/github-readme-stats)
+## MY GitHub Stats
+
+![Tus GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aronrbz&show_icons=true&theme=radical)
+
 
 <details>
   <summary>Click here to see my skills</summary>
