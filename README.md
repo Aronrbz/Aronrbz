@@ -5,8 +5,8 @@
 
  if you want to contact me 🔍:
 
-- [LinkedIn](https://cl.linkedin.com/in/aaronrbz)
-- <a href="mailto:ar.bustos@duocuc.cl">Email</a>
+- [LinkedIn](https://cl.linkedin.com/in/aaronrbz) 
+- <a href="mailto:ar.bustos@duocuc.cl">Email</a> 📧
 
        // Clase base para lenguajes
         public class Lenguaje {
@@ -37,11 +37,11 @@
         public void mostrarInformacion() {
             System.out.println("Lenguaje: " + nombre + " | Tipo: " + tipo);
         }
-    }
-    
-    // Clases para lenguajes Frontend
-    public class LenguajeFrontend extends Lenguaje {
-    
+      }
+      
+      // Clases para lenguajes Frontend
+      public class LenguajeFrontend extends Lenguaje {
+      
         public LenguajeFrontend(String nombre) {
             super(nombre, "Frontend");
         }
@@ -51,10 +51,10 @@
             super.mostrarInformacion();
             System.out.println("Este es un lenguaje de Frontend, perfecto para interfaces dinámicas y modernas.");
         }
-    }
-    
-    // Clases para lenguajes Backend
-    public class LenguajeBackend extends Lenguaje {
+      }
+      
+      // Clases para lenguajes Backend
+      public class LenguajeBackend extends Lenguaje {
     
         public LenguajeBackend(String nombre) {
             super(nombre, "Backend");
@@ -65,11 +65,11 @@
             super.mostrarInformacion();
             System.out.println("Este es un lenguaje de Backend, ideal para lógica robusta y escalabilidad.");
         }
-    }
-    
-    // Clases para lenguajes de Base de Datos
-    public class LenguajeBaseDeDatos extends Lenguaje {
-    
+      }
+      
+      // Clases para lenguajes de Base de Datos
+      public class LenguajeBaseDeDatos extends Lenguaje {
+      
         public LenguajeBaseDeDatos(String nombre) {
             super(nombre, "Base de Datos");
         }
@@ -79,154 +79,154 @@
             super.mostrarInformacion();
             System.out.println("Este es un lenguaje especializado en la gestión de datos persistentes.");
         }
-    }
-    
-    // Lenguajes y tecnologías específicos
-    
-    // Frontend
-    public class HTML extends LenguajeFrontend {
-        public HTML() {
-            super("HTML");
-        }
-    }
-    
-    public class CSS extends LenguajeFrontend {
-        public CSS() {
-            super("CSS");
-        }
-    }
-    
-    public class JavaScript extends LenguajeFrontend {
-        public JavaScript() {
-            super("JavaScript (jQuery)");
-        }
-    }
-    
-    // Frameworks Frontend
-    public class Angular extends JavaScript {
-        public Angular() {
-            super();
-            setNombre("Angular");
-        }
-    
+      }
+      
+      // Lenguajes y tecnologías específicos
+      
+      // Frontend
+      public class HTML extends LenguajeFrontend {
+          public HTML() {
+              super("HTML");
+          }
+      }
+      
+      public class CSS extends LenguajeFrontend {
+          public CSS() {
+              super("CSS");
+          }
+      }
+      
+      public class JavaScript extends LenguajeFrontend {
+          public JavaScript() {
+              super("JavaScript (jQuery)");
+          }
+      }
+      
+      // Frameworks Frontend
+      public class Angular extends JavaScript {
+          public Angular() {
+              super();
+              setNombre("Angular");
+          }
+      
         @Override
         public void mostrarInformacion() {
             System.out.println("Framework: " + getNombre() + " | Basado en: JavaScript");
         }
-    }
-    
-    // Backend
-    public class Java extends LenguajeBackend {
-        public Java() {
-            super("Java");
-        }
-    }
-    
-    // Frameworks Backend
-    public class Spring extends Java {
-        public Spring() {
-            super();
-            setNombre("Spring");
-        }
-    
-        @Override
-        public void mostrarInformacion() {
-            System.out.println("Framework: " + getNombre() + " | Basado en: Java");
-        }
-    }
-    
-    public class JavaEnterpriseEdition extends Java {
-        public JavaEnterpriseEdition() {
-            super();
-            setNombre("Java Enterprise Edition");
-        }
+      }
+      
+      // Backend
+      public class Java extends LenguajeBackend {
+          public Java() {
+              super("Java");
+          }
+      }
+      
+      // Frameworks Backend
+      public class Spring extends Java {
+          public Spring() {
+              super();
+              setNombre("Spring");
+          }
     
         @Override
         public void mostrarInformacion() {
             System.out.println("Framework: " + getNombre() + " | Basado en: Java");
         }
-    }
-    
-    public class Python extends LenguajeBackend {
-        public Python() {
-            super("Python");
+      }
+      
+      public class JavaEnterpriseEdition extends Java {
+          public JavaEnterpriseEdition() {
+              super();
+              setNombre("Java Enterprise Edition");
+          }
+      
+        @Override
+        public void mostrarInformacion() {
+            System.out.println("Framework: " + getNombre() + " | Basado en: Java");
         }
-    }
-    
-    public class Django extends Python {
-        public Django() {
-            super();
-            setNombre("Django");
-        }
+      }
+      
+      public class Python extends LenguajeBackend {
+          public Python() {
+              super("Python");
+          }
+      }
+      
+      public class Django extends Python {
+          public Django() {
+              super();
+              setNombre("Django");
+          }
     
         @Override
         public void mostrarInformacion() {
             System.out.println("Framework: " + getNombre() + " | Basado en: Python");
         }
-    }
-    
-    // Base de Datos
-    public class PostgreSQL extends LenguajeBaseDeDatos {
-        public PostgreSQL() {
-            super("PostgreSQL");
-        }
-    }
-    
-    public class SQLite extends LenguajeBaseDeDatos {
-        public SQLite() {
-            super("SQLite");
-        }
-    }
-    
-    public class Oracle extends LenguajeBaseDeDatos {
-        public Oracle() {
-            super("Oracle");
-        }
-    }
-    
-    public class MySQL extends LenguajeBaseDeDatos {
-        public MySQL() {
-            super("MySQL");
-        }
-    }
-    
-    // Aprendiendo
-    public class CSharp extends LenguajeBackend {
-        public CSharp() {
-            super("C#");
-        }
-    }
-    
-    public class DotNet extends CSharp {
-        public DotNet() {
-            super();
-            setNombre(".Net");
-        }
+      }
+      
+      // Base de Datos
+      public class PostgreSQL extends LenguajeBaseDeDatos {
+          public PostgreSQL() {
+              super("PostgreSQL");
+          }
+      }
+      
+      public class SQLite extends LenguajeBaseDeDatos {
+          public SQLite() {
+              super("SQLite");
+          }
+      }
+      
+      public class Oracle extends LenguajeBaseDeDatos {
+          public Oracle() {
+              super("Oracle");
+          }
+      }
+      
+      public class MySQL extends LenguajeBaseDeDatos {
+          public MySQL() {
+              super("MySQL");
+          }
+      }
+      
+      // Aprendiendo
+      public class CSharp extends LenguajeBackend {
+          public CSharp() {
+              super("C#");
+          }
+      }
+      
+      public class DotNet extends CSharp {
+          public DotNet() {
+              super();
+              setNombre(".Net");
+          }
     
         @Override
         public void mostrarInformacion() {
             System.out.println("Framework: " + getNombre() + " | Basado en: C#");
         }
-    }
-    
-    // Main class para probar todo (opcional, si decides usarlo en un IDE)
-    public class Main {
-        public static void main(String[] args) {
-            Lenguaje html = new HTML();
-            Lenguaje css = new CSS();
-            Lenguaje js = new JavaScript();
-            Lenguaje angular = new Angular();
-            Lenguaje java = new Java();
-            Lenguaje spring = new Spring();
-            Lenguaje jee = new JavaEnterpriseEdition();
-            Lenguaje python = new Python();
-            Lenguaje django = new Django();
-            Lenguaje postgres = new PostgreSQL();
-            Lenguaje sqlite = new SQLite();
-            Lenguaje oracle = new Oracle();
-            Lenguaje mysql = new MySQL();
-            Lenguaje csharp = new CSharp();
-            Lenguaje dotnet = new DotNet();
+      }
+      
+      // Main class para probar todo (opcional, si decides usarlo en un IDE)
+      public class Main {
+          public static void main(String[] args) {
+              Lenguaje html = new HTML();
+              Lenguaje css = new CSS();
+              Lenguaje js = new JavaScript();
+              Lenguaje angular = new Angular();
+              Lenguaje java = new Java();
+              Lenguaje spring = new Spring();
+              Lenguaje jee = new JavaEnterpriseEdition();
+              Lenguaje python = new Python();
+              Lenguaje django = new Django();
+              Lenguaje postgres = new PostgreSQL();
+              Lenguaje sqlite = new SQLite();
+              Lenguaje oracle = new Oracle();
+              Lenguaje mysql = new MySQL();
+              Lenguaje csharp = new CSharp();
+              Lenguaje dotnet = new DotNet();
     
             Lenguaje[] lenguajes = {html, css, js, angular, java, spring, jee, python, django, postgres, sqlite, oracle, mysql, csharp, dotnet};
     
@@ -235,7 +235,7 @@
                 System.out.println("------------------------------------");
             }
         }
-    }
+      }
 
 
 <!--
