@@ -5,7 +5,7 @@
 - [LinkedIn](https://cl.linkedin.com/in/aaronrbz) 
 - <a href="mailto:ar.bustos@duocuc.cl">Email</a> 📧
 
-## MY GitHub Stats
+<h4>MY GitHub Stats</h4>
 
 ![Tus GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aronrbz&show_icons=true&theme=radical)
 
