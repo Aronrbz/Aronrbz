@@ -6,7 +6,7 @@
  if you want to contact me 🔍:
 
 - [LinkedIn](https://cl.linkedin.com/in/aaronrbz)
-- [Email]<a href="mailto:ar.bustos@duocuc.cl"></a>
+- <a href="mailto:ar.bustos@duocuc.cl">Email</a>
 
        // Clase base para lenguajes
         public class Lenguaje {
