@@ -8,37 +8,48 @@
 - [LinkedIn](https://cl.linkedin.com/in/aaronrbz) 
 - <a href="mailto:ar.bustos@duocuc.cl">Email</a> 📧
 
-       // Clase base para lenguajes
+<details>
+  <summary>Haz clic aquí para ver mis Skills</summary>
+  <p>
+   
+       // Primero crearemos una Clase base para los lenguajes (puedes pegarlos en tu ide y funcionara)
+
+       /* Clase Lenguaje.java */
         public class Lenguaje {
-        private String nombre;
-        private String tipo;
-    
-        public Lenguaje(String nombre, String tipo) {
-            this.nombre = nombre;
-            this.tipo = tipo;
-        }
-    
-        public String getNombre() {
-            return nombre;
-        }
-    
-        public void setNombre(String nombre) {
-            this.nombre = nombre;
-        }
-    
-        public String getTipo() {
-            return tipo;
-        }
-    
-        public void setTipo(String tipo) {
-            this.tipo = tipo;
-        }
-    
-        public void mostrarInformacion() {
-            System.out.println("Lenguaje: " + nombre + " | Tipo: " + tipo);
-        }
-      }
-      
+            private String nombre;
+            private String tipo;
+        
+            public Lenguaje(String nombre, String tipo) {
+                this.nombre = nombre;
+                this.tipo = tipo;
+            }
+        
+            public String getNombre() {
+                return nombre;
+            }
+        
+            public void setNombre(String nombre) {
+                this.nombre = nombre;
+            }
+        
+            public String getTipo() {
+                return tipo;
+            }
+        
+            public void setTipo(String tipo) {
+                this.tipo = tipo;
+            }
+        
+            public void mostrarInformacion() {
+                System.out.println("Lenguaje: " + nombre + " | Tipo: " + tipo);
+            }
+          }
+
+      //////////////////////////////////////////////////////////////////////////
+                           Usaremos Herencias y Polimorfismo
+      //////////////////////////////////////////////////////////////////////////
+
+
       // Clases para lenguajes Frontend
       public class LenguajeFrontend extends Lenguaje {
       
@@ -53,6 +64,7 @@
         }
       }
       
+
       // Clases para lenguajes Backend
       public class LenguajeBackend extends Lenguaje {
     
@@ -66,6 +78,8 @@
             System.out.println("Este es un lenguaje de Backend, ideal para lógica robusta y escalabilidad.");
         }
       }
+
+
       
       // Clases para lenguajes de Base de Datos
       public class LenguajeBaseDeDatos extends Lenguaje {
@@ -80,6 +94,8 @@
             System.out.println("Este es un lenguaje especializado en la gestión de datos persistentes.");
         }
       }
+
+
       
       // Lenguajes y tecnologías específicos
       
@@ -95,12 +111,15 @@
               super("CSS");
           }
       }
+
       
       public class JavaScript extends LenguajeFrontend {
           public JavaScript() {
               super("JavaScript (jQuery)");
           }
       }
+
+
       
       // Frameworks Frontend
       public class Angular extends JavaScript {
@@ -114,6 +133,8 @@
             System.out.println("Framework: " + getNombre() + " | Basado en: JavaScript");
         }
       }
+
+
       
       // Backend
       public class Java extends LenguajeBackend {
@@ -121,6 +142,8 @@
               super("Java");
           }
       }
+
+
       
       // Frameworks Backend
       public class Spring extends Java {
@@ -164,6 +187,7 @@
             System.out.println("Framework: " + getNombre() + " | Basado en: Python");
         }
       }
+
       
       // Base de Datos
       public class PostgreSQL extends LenguajeBaseDeDatos {
@@ -189,8 +213,13 @@
               super("MySQL");
           }
       }
+
+
       
-      // Aprendiendo
+      //////////////////////////////////////////////////////////////////////////
+                           Lenguajes que estoy aprendiendo
+      //////////////////////////////////////////////////////////////////////////
+      
       public class CSharp extends LenguajeBackend {
           public CSharp() {
               super("C#");
@@ -208,8 +237,11 @@
             System.out.println("Framework: " + getNombre() + " | Basado en: C#");
         }
       }
+
+
       
       // Main class para probar todo (opcional, si decides usarlo en un IDE)
+      
       public class Main {
           public static void main(String[] args) {
               Lenguaje html = new HTML();
@@ -236,7 +268,9 @@
             }
         }
       }
-
+      
+   </p>
+</details>
 
 <!--
 **Aronrbz/Aronrbz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
