@@ -8,6 +8,8 @@
 - [LinkedIn](https://cl.linkedin.com/in/aaronrbz) 
 - <a href="mailto:ar.bustos@duocuc.cl">Email</a> 📧
 
+[![My Github Stats](https//github-readme-stats.vercel.app/api?username=Aronrbz)](https://github.com/anuraghazra/github-readme-stats)
+
 <details>
   <summary>Click here to see my skills</summary>
   <p>
