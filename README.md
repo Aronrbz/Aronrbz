@@ -1,17 +1,14 @@
-## Hi, I'm Aron 👋👨‍💻
-
 ![image](https://github.com/user-attachments/assets/ca2ea0e1-9da7-48b8-b9e1-9fd01524027c)
 
 
- if you want to contact me 🔍:
+## Hi, I'm Aron 👋👨‍💻
+
+
+if you want to contact me 🔍:
 
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://cl.linkedin.com/in/aaronrbz)
 - [![Email](https://img.shields.io/badge/Email-%230078D4.svg?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:ar.bustos@duocuc.cl)
-- <a href="https://discord.com/users/2862" target="_blank">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" alt="Discord" width="30" height="30">
-</a>
-
-
+- <a href="https://discord.com/users/2862" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" alt="Discord" width="30" height="30"></a>
 
 <h4>MY GitHub Stats</h4>
 
