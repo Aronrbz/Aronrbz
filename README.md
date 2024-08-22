@@ -3,6 +3,15 @@
 
 ## Hi, I'm Aron 👋👨‍💻
 
+A little about me:
+
+My name is Aron Bustos and I'm from Santiago Chile. Am currently working as a project engineer for a consulting firm called “R y C consultores”, where I perform software engineering services for one of our clients “Principal Financial Group” and their business “AFP Cuprum” as outsourcing of the consulting firm. 
+
+Previously, I worked in other consulting firms with clients such as Banco de Chile, being here specialist in disaster recovery plan (known as DRP). Am also a full stack developer using technologies such as django, mySQL, js, git, etc.
+
+I'm a programmer analyst graduated from DuocUC and I intend to continue my studies, from 2025 as a computer engineer, at the Diego Portales University. 
+
+
 
 if you want to contact me 🔍:
 
