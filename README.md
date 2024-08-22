@@ -1,5 +1,8 @@
 ## Hi, I'm Aron 👋👨‍💻
 
+![image](https://github.com/user-attachments/assets/ca2ea0e1-9da7-48b8-b9e1-9fd01524027c)
+
+
  if you want to contact me 🔍:
 
 - [LinkedIn](https://cl.linkedin.com/in/aaronrbz) 
