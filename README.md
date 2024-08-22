@@ -9,7 +9,7 @@
 - <a href="mailto:ar.bustos@duocuc.cl">Email</a> 📧
 
 <details>
-  <summary>Haz clic aquí para ver mis Skills</summary>
+  <summary>Click here to see my skills</summary>
   <p>
    
        // Primero crearemos una Clase base para los lenguajes (puedes pegarlos en tu ide y funcionara)
